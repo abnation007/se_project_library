@@ -43,6 +43,10 @@
   font-weight: bold;
 }
 
+.nav__link:hover {
+  color: #1f69c9;
+}
+
 .header__title {
   max-width: 544px;
   font-size: 66px;
@@ -80,6 +84,10 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
 }
 
 .header__address {
@@ -154,6 +162,10 @@
 .events__more {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__more:hover {
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -231,8 +243,7 @@
   padding: 100px 0 140px;
   background-image: url("../images/staff_picks_background.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 
 .staff__title {
@@ -269,8 +280,8 @@
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
-  height: 360px;
-  width: 420px;
+  width: 360px;
+  height: 420px;
 }
 
 .card__content {
@@ -392,18 +403,26 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #000000;
+  color: white;
+  padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
+  display: flex;
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 }
 
 .footer__column_content_social {
+  margin-left: 100px;
 }
 
 .footer__logo {
+  width: 116px;
+  height: 21px;
 }
 
 .footer__list {
@@ -414,9 +433,11 @@
 }
 
 .footer__list-item {
+  margin-bottom: 16px;
 }
 
 .footer__column-heading {
+  margin-bottom: 0 0 20px;
 }
 
 .footer__column-link {
@@ -426,8 +447,15 @@
   text-decoration: none;
 }
 
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+
 .footer__social-icon {
+  width: 16px;
+  height: 16px;
 }
 
 .footer__copyright {
+  margin: 108px 0 0;
 }
