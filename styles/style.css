@@ -390,6 +390,10 @@
   margin: 0 0 32px;
 }
 
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -403,7 +407,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: white;
   padding: 60px 102px 60px 80px;
 }
@@ -436,6 +440,10 @@
   margin-bottom: 16px;
 }
 
+.footer__list-item:last-child {
+  margin-bottom: 0;
+}
+
 .footer__column-heading {
   margin: 0 0 20px;
 }
@@ -445,6 +453,8 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .footer__column-link:hover {
